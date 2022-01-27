@@ -4,7 +4,7 @@ import 'package:get/get.dart';
 class MainController extends GetxController {
   late TextEditingController phoneNumberController;
   String secretKey = "";
-  String clientId = "DOCTOR_MIGRANT";
+  String clientId = "";
 
   @override
   void onInit() {
