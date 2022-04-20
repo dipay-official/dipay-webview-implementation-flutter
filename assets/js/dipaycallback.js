@@ -1,9 +1,9 @@
 javascript:(function() {
     function callback(e){
         /* Only allow origin from Evy WebView URL */
-//        if(e.origin !== 'http://192.168.88.159:3001'){
-//            return;
-//        }
+/*        if(e.origin !== 'http://192.168.88.159:3001'){
+            return;
+        } */
         /* Stringify the json */
         var data = JSON.stringify(e.data.callback);
 
