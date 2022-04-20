@@ -14,6 +14,7 @@ class WebViewController extends GetxController {
       crossPlatform: InAppWebViewOptions(
         useShouldOverrideUrlLoading: true,
         mediaPlaybackRequiresUserGesture: false,
+        supportZoom: false
       ),
       android: AndroidInAppWebViewOptions(
         useHybridComposition: true,
